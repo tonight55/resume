@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lee.resume.tiny.modules.resume.mapper.ResumemapMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lee.resume.tiny.modules.resume.model.Resumemap">
+        <id column="id" property="id" />
+        <result column="User_Id" property="userId" />
+        <result column="Name_File" property="nameFile" />
+        <result column="DisplayName" property="displayName" />
+        <result column="UploadDate" property="uploadDate" />
+    </resultMap>
+
+</mapper>
