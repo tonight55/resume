@@ -65,6 +65,15 @@ CREATE TABLE resumeMap (
 	
 	) ENGINE = INNODB AUTO_INCREMENT = 16 DEFAULT CHARSET = utf8 COMMENT = '简历分享表';
 	
+```
+ github管理：
+ ---------------
+ 以上>22.6.30
+ 
+ 
+ 注册功能的实现：
+ ----------------
+ 22.7.1
 
     
     
